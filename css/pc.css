@@ -1,0 +1,106 @@
+.galeria{
+    display: flex;
+    flex-flow:  wrap;
+    width: 84vw;
+    border-bottom: var(--color1) solid;
+}
+.galeria h1{
+    width: 100vw;
+}
+
+.galeria picture img{
+    margin-left: 2rem;
+    width: 25vw;
+    height: 25vw;
+    object-fit: cover;
+    border: var(--color1) solid;
+    border-radius: 2rem;
+}
+.galeria picture h3{
+    margin-bottom: 8rem;
+    margin-left: 2rem;
+    width: 25vw;
+}
+
+.galeria .gif img{
+    margin-left: 2rem;
+    width: 25vw;
+    height: 25vw;
+    object-fit: cover;
+    border: var(--color1) solid;
+    border-radius: 2rem;
+    margin-right: 0rem;
+}
+.galeria .gif h3{
+    margin-bottom: 8rem;
+    margin-left: 2rem;
+    width: 25vw;
+}
+iframe{
+    width: 80vw;
+    height: 80vh;
+}
+main{
+    display: flex;
+    flex-direction: row;
+}
+.principal{
+    width: 84vw;
+    order: 2;
+}
+.lateral{
+    display: flex;
+    width: 16vw;
+    background-color: rgb(34, 34, 34);
+    order: 1;
+}
+.lateral img{
+    width: 12vw;
+    height: 12vw;
+    object-fit: cover;
+    border-radius: 50%;
+    position: fixed;
+    top: 20vh;
+    left: 3rem;
+}
+.redes{
+    width: 16vw;
+    height: 100vh;
+    position: fixed;
+    top: 48vh;
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    align-items: center;
+}
+.redes div{
+    width: 6rem;
+    height: 6rem;
+    background-color: rgb(218, 213, 213);
+    border-radius: 50%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 1rem;
+    margin-bottom: 3rem;
+}
+.mail{
+    background-image: url(https://www.flaticon.es/svg/vstatic/svg/174/174879.svg?token=exp=1618621205~hmac=01a652aa58e1402fb1f4d4e7f9949890) ;
+    width: 4rem;
+    height: 4rem;
+}
+.instagram{
+    background-image: url(https://www.flaticon.es/svg/vstatic/svg/174/174855.svg?token=exp=1618621205~hmac=6494aeaa9f95aaec60e93a7b787ce9ee);
+    width: 4rem;
+    height: 4rem;
+}
+.github{
+    background-image: url(https://www.flaticon.es/svg/vstatic/svg/733/733609.svg?token=exp=1618627678~hmac=71f69d883bb3b80347e6becd15bd3cdf);
+    width: 4rem;
+    height: 4rem;
+}
+.linkedin{
+    background-image: url(https://www.flaticon.es/svg/vstatic/svg/174/174857.svg?token=exp=1618622565~hmac=b183e29cd7e4101482ed5602c7d7aa7b);
+    width: 4rem;
+    height: 4rem;
+}
