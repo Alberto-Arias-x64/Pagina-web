@@ -1,11 +1,10 @@
 :root{
-    --color4: rgb(121, 121, 121);
+    --color4: rgb(93, 94, 66);
 }
 h4{
     font-size: 2rem;
     color:var(--color3);
-    text-align: end;
-    padding-right: 10%;
+
 }
 .galeria{
     display: flex;
@@ -86,7 +85,7 @@ main{
 .redes div{
     width: 6rem;
     height: 6rem;
-    background-color: rgb(218, 213, 213);
+    background-color: rgb(226, 226, 200);
     border-radius: 50%;
     display: flex;
     text-align: center;
