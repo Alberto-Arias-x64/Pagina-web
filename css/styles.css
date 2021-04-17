@@ -107,6 +107,10 @@ p{
     margin-top: 1rem;
     margin-bottom: 2rem;
 }
+.experiencia div h4{
+    margin-left: 0;
+    padding-left: 0;
+}
 .educacion{
     display: flex;
     flex-direction: column;
