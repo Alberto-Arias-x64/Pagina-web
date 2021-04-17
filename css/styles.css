@@ -57,7 +57,7 @@ h4{
     padding: 1%;
     border-radius: 2rem;
     background-color: rgb(202, 206, 209);
-    margin-left: 80%;
+    margin-left: 70%;
     margin-inline-end: auto;
 }
 p{
@@ -108,7 +108,6 @@ p{
     margin-bottom: 2rem;
 }
 .experiencia div h4{
-    margin-left: 0;
     padding-left: 0;
 }
 .educacion{
