@@ -58,6 +58,7 @@ h4{
     border-radius: 2rem;
     background-color: rgb(202, 206, 209);
     margin-left: 80%;
+    margin-inline-end: auto;
 }
 p{
     color: #bac3cf;
