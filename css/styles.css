@@ -1,8 +1,8 @@
 :root{
     --tamañoLetra: 1.9rem;
-    --color1: rgb(13, 22, 148);
-    --color2: rgb(73, 73, 73);
-    --color3: rgb(151, 151, 151);
+    --color1: rgb(17, 18, 126);
+    --color2: rgb(52, 52, 100);
+    --color3: rgb(90, 76, 76);
 }
 *{
     padding: 0%;
@@ -27,11 +27,11 @@ header{
 }
 
 header p{
-    font-size: 2rem;
+    font-size: 3rem;
     margin-left: 1rem;
     margin-top: auto;
     margin-bottom: auto;
-    color: rgb(1,1,1);
+    color: rgb(209, 209, 209);
 }
 h1{
     font-size: 6rem;

@@ -1,3 +1,12 @@
+:root{
+    --color4: rgb(121, 121, 121);
+}
+h4{
+    font-size: 2rem;
+    color:var(--color3);
+    text-align: end;
+    padding-right: 10%;
+}
 .galeria{
     display: flex;
     flex-flow:  wrap;
@@ -62,6 +71,7 @@ main{
     position: fixed;
     top: 20vh;
     left: 3rem;
+    border: var(--color4)solid;
 }
 .redes{
     width: 16vw;
@@ -88,6 +98,7 @@ main{
     background-image: url(https://www.flaticon.es/svg/vstatic/svg/174/174879.svg?token=exp=1618621205~hmac=01a652aa58e1402fb1f4d4e7f9949890) ;
     width: 4rem;
     height: 4rem;
+    
 }
 .instagram{
     background-image: url(https://www.flaticon.es/svg/vstatic/svg/174/174855.svg?token=exp=1618621205~hmac=6494aeaa9f95aaec60e93a7b787ce9ee);
@@ -103,4 +114,5 @@ main{
     background-image: url(https://www.flaticon.es/svg/vstatic/svg/174/174857.svg?token=exp=1618622565~hmac=b183e29cd7e4101482ed5602c7d7aa7b);
     width: 4rem;
     height: 4rem;
+    display: none;
 }
