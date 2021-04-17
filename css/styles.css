@@ -97,6 +97,7 @@ p{
     display: flex;
     flex-direction: column;
     padding: 3rem;
+    width: 100vw;
     border-bottom: var(--color1) solid;
 }
 .experiencia p{
