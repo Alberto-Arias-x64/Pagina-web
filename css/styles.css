@@ -12,8 +12,6 @@
 html{
     font-size: 62.5%;
     font-family: 'Oswald', sans-serif;
-    text-rendering: optimizeLegibility;
-    image-rendering: optimizeSpeed;
     text-transform: initial;
     background-color: #2b2f33;
     overflow-x: hidden;
@@ -57,8 +55,12 @@ h4{
     padding: 1%;
     border-radius: 2rem;
     background-color: rgb(202, 206, 209);
-    margin-left: 65%;
     margin-inline-end: auto;
+}
+div h4{
+    display: flex;
+    justify-content: end;
+    justify-self: end;
 }
 p{
     color: #bac3cf;
