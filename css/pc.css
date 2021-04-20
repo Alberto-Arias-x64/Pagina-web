@@ -5,7 +5,6 @@ div h4{
     display: flex;
     font-size: 2rem;
     color:var(--color3);
-    justify-content: end;
 }
 .galeria{
     display: flex;

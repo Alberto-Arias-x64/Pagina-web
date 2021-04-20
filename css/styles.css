@@ -55,12 +55,6 @@ h4{
     padding: 1%;
     border-radius: 2rem;
     background-color: rgb(202, 206, 209);
-    margin-inline-end: auto;
-}
-div h4{
-    display: flex;
-    justify-content: end;
-    justify-self: end;
 }
 p{
     color: #bac3cf;
