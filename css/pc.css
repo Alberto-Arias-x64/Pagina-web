@@ -2,7 +2,6 @@
     --color4: rgb(93, 94, 66);
 }
 div h4{
-    display: flex;
     font-size: 2rem;
     color:var(--color3);
 }
