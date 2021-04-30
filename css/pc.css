@@ -67,7 +67,7 @@ main{
     object-fit: cover;
     border-radius: 50%;
     position: fixed;
-    top: 20vh;
+    top: 10vh;
     left: 3rem;
     border: var(--color4)solid;
 }
@@ -75,7 +75,7 @@ main{
     width: 16vw;
     height: 100vh;
     position: fixed;
-    top: 48vh;
+    top: 38vh;
     display: flex;
     flex-flow: column;
     text-align: center;
@@ -93,25 +93,40 @@ main{
     margin-bottom: 3rem;
 }
 .mail{
-    background-image: url("./Media/whatsapp.png");
+    background-image: url(../Media/whatsapp.png);
+    background-size: contain;
+    background-position: center;
     width: 4rem;
     height: 4rem;
 }
 .instagram{
-    background-image: url("./Media/instagram.png");
+    background-image: url(../Media/instagram.png);
+    background-size: contain;
+    background-position: center;
     width: 4rem;
     height: 4rem;
 }
 .github{
-    background-image: url("./Media/github.png");
+    background-image: url(../Media/github.png);
+    background-size: contain;
+    background-position: center;
     width: 4rem;
     height: 4rem;
 }
 .linkedin{
-    background-image: url(https://www.flaticon.es/svg/vstatic/svg/174/174857.svg?token=exp=1618622565~hmac=b183e29cd7e4101482ed5602c7d7aa7b);
+    background-image: url(../Media/linkedin.png);
+    background-size: contain;
+    background-position: center;
     width: 4rem;
     height: 4rem;
     display: none;
+}
+.drive{
+    background-image: url(../Media/google-drive.png);
+    background-size: contain;
+    background-position: center;
+    width: 4rem;
+    height: 4rem;
 }
 .experiencia{
     width: 84vw;
