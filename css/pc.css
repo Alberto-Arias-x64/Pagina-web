@@ -93,18 +93,17 @@ main{
     margin-bottom: 3rem;
 }
 .mail{
-    background-image: url(https://www.flaticon.es/svg/vstatic/svg/174/174855.svg?token=exp=1618621205~hmac=6494aeaa9f95aaec60e93a7b787ce9ee);
+    background-image: url("./Media/whatsapp.png");
     width: 4rem;
     height: 4rem;
-    
 }
 .instagram{
-    background-image: url(https://www.flaticon.es/svg/vstatic/svg/174/174855.svg?token=exp=1618621205~hmac=6494aeaa9f95aaec60e93a7b787ce9ee);
+    background-image: url("./Media/instagram.png");
     width: 4rem;
     height: 4rem;
 }
 .github{
-    background-image: url(https://www.flaticon.es/svg/vstatic/svg/733/733609.svg?token=exp=1618627678~hmac=71f69d883bb3b80347e6becd15bd3cdf);
+    background-image: url("./Media/github.png");
     width: 4rem;
     height: 4rem;
 }
