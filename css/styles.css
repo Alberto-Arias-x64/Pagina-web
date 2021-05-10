@@ -169,6 +169,10 @@ p{
 .estudios_a h3{
     font-size: 2rem;
 }
+.estudios_a a{
+    color: blueviolet;
+    padding: 0.7rem 0;
+}
 .intereses{
     display: flex;
     flex-direction: column;
