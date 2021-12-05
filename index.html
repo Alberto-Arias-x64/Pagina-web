@@ -6,174 +6,137 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HV</title>
     <link rel="stylesheet" href="./css/styles.css">
-    <link rel="stylesheet" href="./css/tablet.css" media="screen and (min-width: 760px)">
-    <link rel="stylesheet" href="./css/pc.css" media="screen and (min-width: 1000px)">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;400;700&display=swap" rel="stylesheet">    
+
 </head>
 
 <body>
     <header>
-        <p>Mi Perfil</p>
+        <div>
+            <p>My Profile</p>
+            <ul>
+                <li>home</li>
+                <li>about</li>
+                <li>services</li>
+                <li>Galery</li>
+                <li><p>concact me</p></li>
+            </ul>
+        </div>
     </header>
     <main>
-        <div class="principal">
-            <section class="introduccion">
-                <h1 class="nombre">NICOLAS</h1>
-                <h1 class="apellido">ARIAS</h1>
-                <div class="contacto">
-                    <p>Zipaquirá,Colombia</p>
-                    <p>Cel: (+57)319 457 79 29</p>
-                    <p>Email:nikolas64.98@hotmail.es</p>
+        <section class="intro">
+            <h1 class="nombre">NICOLAS</h1>
+            <h1 class="apellido">ARIAS</h1>
+            <div class="contacto">
+                <p>mechatronics engineering // frontend develomen</p>
+            </div>
+        </section>
+
+        <section class="about">
+            <div>
+                <img src="./Media/foto.png" alt="Simio photo">
+                <div class="contend">
+                    <h2>About me</h2>
+                    <p>My name is Nicolas Arias, im a Mechatronic enngenier and Frond end develoment based in Zipaquira, COL, and im very passionate and dedicated to my work. with 1 year experience as a professional engenier, i have acquired skills necessary to buld gread and premium websites.</p>
+                    <div class="card">
+                        <ul>
+                            <li><p class="strong">Name: </p> <p>Nicolas Arias</p></li>
+                            <li><p class="strong">Email: </p> <p>Nikolas64.98@hotmail.es</p></li>
+                            <li><p class="strong">Address: </p> <p>Zipaquira,Cund,COL</p></li>
+                        </ul>
+                        <ul>
+                            <li><p class="strong">Date of bird: </p> <p>june 23, 1998</p></li>
+                            <li>  <p class="strong">Phone: </p> <p>+57-319 457 7929</p></li>
+                            <li>  <p class="strong">Hire: </p> <p>Avable</p></li>
+                        </ul>
+                    </div>
                 </div>
-                <p class="contenido">Soy ingeniero Mecatrónico con experiencia en el área de diseño CAD, programación de elementos embebidos orientados a la automatización. Tengo una gran capacidad de aprendizaje y curiosidad, soy proactivo, dinámico y cuento con capacidades de liderazgo y trabajo en equipo.</p>
-                
-            </section>
-            <section class="experiencia">
-                <h1>Experiencia</h1>
-                <div>
-                    <h2>Frontend develpment</h2>
-                    <h3>Independiente</h3>
-                    <p>Realice la página web que en este momento estas viendo, a partir de Html y css responsive</p>
-                    <h4>Abril/2021</h4>
+            </div>
+        </section>
+        <section class="services">
+            <div>
+                <h2>My services</h2>
+                <div class="card" id="card_1">
+                    <div class="title">
+                        <p class="strong">Frontend developmet</p>
+                        <p class="value">Excellent</p>
+                    </div>
+                    <p class="fill">Development of templates,UI/UX designe,research, design, implementation and correction of user interfaces flexible to any environment</p>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Javascipt</li>
+                    </ul>
                 </div>
-                <div>
-                    <h2>Impresión 3D</h2>
-                    <h3>Independiente</h3>
-                    <p>Me encargo actualmente de diseñar, validar, operar y dar mantenimiento a una impresora 3D</p>
-                    <h4>Octubre/2019-Atualmente</h4>
+                <div class="card" id="card_1">
+                    <div class="title">
+                        <p class="strong">Industrial designe</p>
+                        <p class="value">Excellent</p>
+                    </div>
+                    <p class="fill">development, validation, finite element analysis, generation of manufacturing drawings </p>
+                    <ul>
+                        <li>Solid Works</li>
+                        <li>Autocad</li>
+                        <li>Fusion 360</li>
+                    </ul>
                 </div>
-                <div>
-                    <h2>Dibujante y desarrollador</h2>
-                    <h3>Tecnoindustrial a&a sas</h3>
-                    <p>Desarrolle proyectos de diseño de planos e implemente diferentes tarjetas de desarrollo para propósitos de monitoreo de temperaturas</p>
-                    <h4>Octubre/2019-Junio/2020</h4>
+                <div class="card" id="card_2">
+                    <div class="title">
+                        <p class="strong">Software development</p>
+                        <p class="value">Very good</p>
+                    </div>
+                    <p class="fill">research, design, implementation and correction of user interfaces flexible to any environment</p>
+                    <ul>
+                        <li>Python</li>
+                        <li>C++</li>
+                        <li>Node.js</li>
+                    </ul>
                 </div>
-                <div>
-                    <h2>Asesor de ingeniería</h2>
-                    <h3>Mantecso</h3>
-                    <p>Realice lectura e interpretacion de planos y modificaciones-mejoras a diseños pre-manufacturacion</p>
-                    <h4>Enero/2020-Junio/2020</h4>
+                <div class="card" id="card_2">
+                    <div class="title">
+                        <p class="strong">Automatization</p>
+                        <p class="value">Very good</p>
+                    </div>
+                    <p class="fill">programin microcontroller, plc, sensor reading, bla</p>
+                    <ul>
+                        <li>Pic // Atmel</li>
+                        <li>Arduino</li>
+                        <li>Espressif</li>
+                    </ul>
                 </div>
-                <div>
-                    <h2>Ayudante de taller ornamentación</h2>
-                    <h3>Independiente</h3>
-                    <p>Ayudo a mi padre con planos, herramientas eléctricas y de mano para desarrollar diferentes proyectos</p>
-                    <h4>2015-Actualmente</h4>
+                <div class="card" id="card_2">
+                    <div class="title">
+                        <p class="strong">3D printing</p>
+                        <p class="value">Very good</p>
+                    </div>
+                    <p class="fill">modeling, printing, painting and post-processing service, for 3d FDM printing</p>
+                    <ul>
+                        <li>Ultimaker Cura</li>
+                        <li>Ender 3</li>
+                    </ul>
                 </div>
-            </section>
-            <section class="educacion">
-                <h1>Educación</h1>
-                <div>
-                    <h2>Ingeniería Mecatrónica</h2>
-                    <h3>Universidad Ecci</h3>
-                    <h4>2017-2019</h4>
+                <div class="card" id="card_3">
+                    <div class="title">
+                        <p class="strong">Audiovisual production</p>
+                        <p class="value">Good</p>
+                    </div>
+                    <p class="fill">recording and editing of images, photographs, logos, videos and short films</p>
+                    <ul>
+                        <li>Adobe Photoshop</li>
+                        <li>Adobe Premier pro</li>
+                        <li>Adobe Ilustrator</li>
+                    </ul>
                 </div>
-                <div>
-                    <h2>Tegnólogo en automatización y robótica industrial</h2>
-                    <h3>Universidad Ecci</h3>
-                    <h4>2015-2017</h4>
-                </div>
-                <div>
-                    <h2>Bachiller académico</h2>
-                    <h3>IEM Santiago Perez</h3>
-                    <h4>2014</h4>
-                </div>
-            </section>
-            <section class="galeria">
-                <h1>Proyectos</h1>
-                <picture>
-                    <img src="./Media/Img1.png" alt="Modelado de piston de compresor">
-                    <h3>Modelado de pistón de compresor</h3>
-                </picture>
-                <picture>
-                    <img src="./Media/img2.png" alt="Impresion de engranes helicoidales">
-                    <h3>Impresión de engranes helicoidales</h3>
-                </picture>
-                <picture>
-                    <img src="./Media/img3.png" alt="Impresion de boquillas">
-                    <h3>Impresión de boquillas</h3>
-                </picture>
-                <picture>
-                    <img src="./Media/img4.png" alt="Practicas de robotica">
-                    <h3>Practicas de robótica en la Universidad Nacional de Colombia</h3>
-                </picture>
-                <picture>
-                    <img src="./Media/img5.png" alt="Sistema de monitoreo de temperatura y humedad">
-                    <h3>Sistema de monitoreo de temperatura y humedad</h3>
-                </picture>
-                <picture>
-                    <img src="./Media/img6.png" alt="Ejercicio de mecanizado en torno">
-                    <h3>Ejercicio de mecanizado en torno</h3>
-                </picture>
-                <picture>
-                    <img src="./Media/img7.png" alt="manufacturacion de marco para insoluz">
-                    <h3>Manufacturación de marco para insoluz</h3>
-                </picture>
-                <picture>
-                    <img src="./Media/img8.png" alt="reacondicionamiento y modificacion de moldes para arcilla">
-                    <h3>Reacondicionamiento y modificacion de moldes para arcilla</h3>
-                </picture>
-                <picture class="gif">
-                    <img src="./Media/video.gif" alt="Recopilacion de diferentes proyectos">
-                    <h3>Recopilación de diferentes proyectos</h3>
-                </picture>
-            </section>
-            <section class="habilidades">
-                <h1>Programas y lenguajes</h1>
-                <ul>
-                    <li>Paquete office</li>
-                    <li>SolidWorks/ Freecad/ Autocad</li>
-                    <li>Cura</li>
-                    <li>Python/Open CV/Sklern</li>
-                    <li>C/C++</li>
-                    <li>Windows/Linux</li>
-                    <li>Html/CSS</li>
-                    <li>Git/Github</li>
-                    <li>Lader</li>
-                </ul>
-            </section>
-            <section class="estudios_a">
-                <h1>Estudios Adicionales</h1>
-                <div>
-                    <h2>Seminario de programación de robots industriales</h2>
-                    <h3>Universidad Nacional</h3>
-                    <h4>2019</h4>
-                </div>
-                <div>
-                    <h2>Seminario de industria 4.0</h2>
-                    <h3>Festo</h3>
-                    <h4>2019</h4>
-                </div>
-                <div>
-                    <h2>Control Batch basado en estandar ANSI/ISA-88</h2>
-                    <h3>Colsein training center</h3>
-                    <h4>2019</h4>
-                </div>
-                <div>
-                    <h2>Múltiples cursos enfocados a informatica, programación e inteligencia artificial</h2>
-                    <a href="https://platzi.com/p/SMO3D/"> <h3>🢂 Platzi 🢀</h3></a>
-                    <h4>2020-2021</h4>
-                </div>
-            </section>
-            <section class="intereses">
-                <h1>Intereses</h1>
-                <p>Estoy dedicando mi tiempo a mi crecimiento profesional en la plataforma de platzi en las ramas de machine learning e inteligencia artificial, desarrollo web y la escuela de videojuegos</p> <br>
-                <p>Me gustan los videojuegos y el contenido digital, últimamente en COD warzone, me mantengo continuamente en interacción con diferentes personas desarrollando más mis habilidades blandas como son la comunicación, el liderazgo y el trabajo en equipo.</p> <br>
-                <p>Actualmente me gustaría poder aplicar mis conocimientos aprendidos enfocados a la industria.</p> <br>
-                <p>mis Stats :<a href="https://wzstats.gg/profile/Simio64%25231930/platform/battle"> aqui</a></p>
-            </section>
-        </div>
-        <div class="lateral">
-            <img src="./Media/foto.png" alt="Mi foto">
-            <section class="redes">
-                <!--<div><a href="" class="linkedin"></a></div>-->
-                <div><a href="https://wa.link/fn6piu" class="mail"></a></div>
-                <div><a href="https://www.instagram.com/alberto_arias_64/?r=nametag" class="instagram"></a></div>
-                <div><a href="https://github.com/Simio64" class="github"></a></div>
-                <div><a href="https://drive.google.com/drive/folders/1LX2MLMo4JAYt28iu0_DctlvkK5MXH1h8?usp=sharing" class="drive"></a></div>
-            </section>
-        </div>
+            </div>
+        </section>
+        <section class="galery">
+            <h1>Galery</h1>
+            <picture>
+                <img src="./Media/Img1.png" alt="Modelado de piston de compresor">
+            </picture>
+        </section>
     </main>
     <!--
     <footer>
