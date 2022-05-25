@@ -1,173 +1,286 @@
 <!DOCTYPE html>
 <html lang="eng">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Alberto Arias</title>
+    <link rel="shortcut icon" href="./Media/icon1.ico" type="image/x-icon">
     <link rel="stylesheet" href="./styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;400;700&display=swap" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
 </head>
 
 <body>
-    <header>
-        <div>
-            <p>My Profile</p>
-            <ul>
-                <li>home</li>
-                <li>about</li>
-                <li>services</li>
-                <li>Galery</li>
-                <li><p>concact me</p></li>
-            </ul>
-        </div>
-    </header>
     <main>
-        <section class="intro">
-            <h1 class="nombre">NICOLAS</h1>
-            <h1 class="apellido">ARIAS</h1>
-            <div class="contacto">
-                <p>Mechatronics engineering // frontend develomen</p>
+        <header>
+            <div class="head">
+                <img class="head_img" src="./Media/icon1.png" alt="">
+                <ul class="head_nav">
+                    <li>home</li>
+                    <li>about</li>
+                    <li>projects</li>
+                    <li>services</li>
+                    <li>Galery</li>
+                </ul>
+            </div>
+        </header>
+
+        <section>
+            <div class="intro">
+                <div>
+                    <h1 class="nombre">ALBERTO</h1>
+                    <h1 class="p_secondary">ARIAS</h1>
+                    <p class="p_secondary">Web Developer | Mechatronics engineering</p>
+                </div>
+                <div class="contact">
+                    <a href="https://linkedin.com/in/alberto-arias-629128211">
+                        <img class="icon" src="./Media/linkedin.png">
+                        <div>
+                            <p class="p_secondary">linkedin</p>
+                            <p class="c_strong">Alberto Arias</p>
+                        </div>
+                    </a>
+                    <a href="https://github.com/Alberto-Arias-x64">
+                        <img class="icon" src="./Media/github.png" alt="">
+                        <div>
+                            <p class="p_secondary">linkedin</p>
+                            <p class="c_strong">Alberto-Arias-x64</p>
+                        </div>
+                    </a>
+                    <a href="https://www.instagram.com/alberto_arias_x64/">
+                        <img class="icon" src="./Media/instagram.png" alt="">
+                        <div>
+                            <p class="p_secondary">linkedin</p>
+                            <p class="c_strong">alberto_arias_x64</p>
+                        </div>
+                    </a>
+                </div>
             </div>
         </section>
 
-        <section class="about">
-            <div>
-                <img src="./Media/foto2.png" alt="Simio photo"> 
-                <div class="contend">
+        <section>
+            <div class="about">
+                <div class="about_img">
+                    <img src="./Media/foto2.png" alt="Alberto Arias">  
+                    <button class="alternative_button" onclick="redir('https://drive.google.com/file/d/1894WsCmCQczVxnmx7xEwi3LWheEQq2Lt/view?usp=sharing')">Resumen</button>
+                </div>
+                <div class="conten">
                     <h2>About me</h2>
-                    <p>My name is Nicolas Arias, im a Mechatronic enngenier and Frond end develoment based in COL, im very passionate and dedicated to my work. with 1 year experience as a professional engenier, i have acquired skills necessary to buld gread and professional solutions.</p>
-                    <div class="card" id="principal_card">
-                        <ul>
-                            <li><p class="strong">Name: </p> <p>Nicolas Arias</p></li>
-                            <li><p class="strong">Email: </p> <p>Nikolas64.98@hotmail.es</p></li>
-                            <li><p class="strong">Address: </p> <p>Zipaquira,Cund,COL</p></li>
-                        </ul>
-                        <ul>
-                            <li><p class="strong">Date of bird: </p> <p>june 23, 1998</p></li>
-                            <li><p class="strong">Phone: </p> <p>+57-319 457 7929</p></li>
-                            <li><p class="strong">Hire: </p> <p>Available</p></li>
-                        </ul>
+                    <p>I love programming and everything related to the internet and new technologies, when I turned 16
+                        years old I bought my first computer, with this computer I learned to design my first 3d models
+                        and then allowed me to get started in the world of programming, this experience pushed me to
+                        study industrial automation engineering. During the pandemic I have focused on improving my
+                        professional career in software development for the web, I'm almost completely self-taught,
+                        doing projects and improving day by day.</p>
+                    <div class="table">
+                        <div>
+                            <h4>Name: </h4>
+                            <p>Alberto Arias</p>
+                        </div>
+                        <div>
+                            <h4>Date of bird: </h4>
+                            <p>June 23</p>
+                        </div>
+                        <div>
+                            <h4>Phone: </h4>
+                            <p>(+57) 321 498 6813</p>
+                        </div>
+                        <div>
+                            <h4>Email: </h4>
+                            <p>alberto.arias.x64@gmail.com</p>
+                        </div>
+                        <div>
+                            <h4>Address: </h4>
+                            <p>Zipaquira, COL</p>
+                        </div>
+                        <div>
+                            <h4>Hire: </h4>
+                            <p>Available</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="services">
-            <div>
+            
+        <section>
+            <div class="projects">
+                <div class="project ">
+                    <p class="strong p_secondary">Portfolio V3</p>
+                    <img src="./Media/img13.jpeg" alt="Portfolio">
+                    <p class="p_secondary">Welcome to my portfolio, this is a project to show who I am and what knowledge I am acquiring over time, this includes my experience, personal projects, something about me, and a little gratitude to all my mentors along to my technological career.</p>
+                    <button onclick="redir('https://www.alberto-arias.xyz/')">See now</button>
+                </div>
+                <div class="project ">
+                    <p class="strong p_secondary">Note app</p>
+                    <img src="./Media/img14.png" alt="react app">
+                    <p class="p_secondary">This is the presentation of the final project of the full stack boocam of Midudev which consists of an app to post messages on a public board.</p>
+                    <button onclick="redir('https://note-app-x64.herokuapp.com/')">See now</button>
+                </div>
+                <div class="project ">
+                    <p class="strong p_secondary">Tu pieza 3D</p>
+                    <img src="./Media/img15.png" alt="3D">
+                    <p class="p_secondary">Personal project to increase the visibility of my 3D products.</p>
+                    <button onclick="redir('https://github.com/Alberto-Arias-x64/3D_Froger')">See now</button>
+                </div>
+                <div class="project ">
+                    <p class="strong p_secondary">Password manager</p>
+                    <img src="./Media/img10.PNG" alt="Django app">
+                    <p class="p_secondary">This is the presentation of the final project of the full stack boocam of pildorasinformaticas which consists of an application for encrypted storage of web site passwords.</p>
+                    <button onclick="redir('https://github.com/Alberto-Arias-x64/Password_manager')">See now</button>
+                </div>
+                <div class="project ">
+                    <p class="strong p_secondary">Live app message</p>
+                    <img src="./Media/img17.png" alt="react app">
+                    <p class="p_secondary">Application built with socket IO to distribute messages to anyone connected to the server.</p>
+                    <button onclick="redir('https://github.com/Alberto-Arias-x64/Simple_message_app')">See now</button>
+                </div>
+                <div class="project ">
+                    <p class="strong p_secondary">Rapid Fire</p>
+                    <img src="./Media/img18.png" alt="Python">
+                    <p class="p_secondary">Python script to shoot at a higher speed than any human can reach</p>
+                    <button onclick="redir('https://github.com/Alberto-Arias-x64/Rapid_fire')">See now</button>
+                </div>
+                <div class="project ">
+                    <p class="strong p_secondary">Temperature monitor</p>
+                    <img src="./Media/img19.png" alt="arduino">
+                    <p class="p_secondary">Customized project for a company dedicated to the cultivation of roses, consists of a temperature and humidity sensor in real time to notify when the temperature goes out of the preset parameters.</p>
+                    <button onclick="redir('https://github.com/Alberto-Arias-x64/Sensor_temperatura_humedad')">See now</button>
+                </div>
+                <div class="project ">
+                    <p class="strong p_secondary">Portfolio V2</p>
+                    <img src="./Media/img16.png" alt="Portfolio">
+                    <p class="p_secondary">Is a light version of my current portfolio for better accounting with browsers.</p>
+                    <button onclick="redir('https://alberto-arias-x64.github.io/Pagina-web/')">See now</button>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="services">
                 <h2>My services</h2>
-                <div class="card" id="card_1">
-                    <div class="title">
-                        <span class="strong">Frontend developmet</span>
-                        <p class="value">Excellent</p>
+                <div class="cards">
+                    <div class="card">
+                        <span class="strong">Frontend Developmet</span>
+                        <p>Development of templates,UI/UX designe,research, design, implementation and
+                            correction of user interfaces flexible to any environment</p>
+                        <div>
+                            <p class="value">HTML</p>
+                            <p class="value">CSS</p>
+                            <p class="value">Javascipt</p>
+                        </div>
                     </div>
-                    <p class="fill">Development of templates,UI/UX designe,research, design, implementation and correction of user interfaces flexible to any environment</p>
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>Javascipt</li>
-                    </ul>
-                </div>
-                <div class="card" id="card_1">
-                    <div class="title">
-                        <span class="strong">Industrial designe</span>
-                        <p class="value">Excellent</p>
+                    <div class="card">
+                        <span class="strong">Industrial Designe</span>
+                        <p>evelopment, validation, finite element analysis, generation of manufacturing
+                            drawings</p>
+                        <div>
+                            <p class="value">Solid Works</p>
+                            <p class="value">Autocad</p>
+                            <p class="value">Fusion 360</p>
+                        </div>
                     </div>
-                    <p class="fill">Development, validation, finite element analysis, generation of manufacturing drawings </p>
-                    <ul>
-                        <li>Solid Works</li>
-                        <li>Autocad</li>
-                        <li>Fusion 360</li>
-                    </ul>
-                </div>
-                <div class="card" id="card_2">
-                    <div class="title">
-                        <span class="strong">Software development</span>
-                        <p class="value">Very good</p>
+                    <div class="card card_2">
+                        <span class="strong">Software Development</span>
+                        <p>Development of software solutions.</p>
+                        <div>
+                            <p class="value">Javascipt</p>
+                            <p class="value">Python</p>
+                        </div>
                     </div>
-                    <p class="fill">Development of software solutions </p>
-                    <ul>
-                        <li>Python</li>
-                        <li>C++</li>
-                        <li>Node.js</li>
-                    </ul>
-                </div>
-                <div class="card" id="card_2">
-                    <div class="title">
+                    <div class="card card_2">
                         <span class="strong">Automatization</span>
-                        <p class="value">Very good</p>
+                        <p>Programming of microcontrollers, plc, sensor reading, and implementation of
+                            automation solutions.</p>
+                        <div>
+                            <p class="value">Pic | Esp32</p>
+                            <p class="value">Arduino</p>
+                            <p class="value">Python</p>
+                        </div>
                     </div>
-                    <p class="fill">Programming of microcontrollers, plc, sensor reading, and implementation of automation solutions.</p>
-                    <ul>
-                        <li>Pic // Atmel</li>
-                        <li>Arduino</li>
-                        <li>Espressif</li>
-                    </ul>
-                </div>
-                <div class="card" id="card_2">
-                    <div class="title">
-                        <span class="strong">3D printing</span>
-                        <p class="value">Very good</p>
+                    <div class="card card_3">
+                        <span class="strong">3D Printing</span>
+                        <p>Modeling, printing, painting and post-processing service, for 3d FDM printing</p>
+                        <div>
+                            <p class="value">Ultimaker Cura</p>
+                            <p class="value">Blender</p>
+                        </div>
                     </div>
-                    <p class="fill">Modeling, printing, painting and post-processing service, for 3d FDM printing</p>
-                    <ul>
-                        <li>Ultimaker Cura</li>
-                        <li>Blender</li>
-                        <li>Ender 3</li>
-                    </ul>
-                </div>
-                <div class="card" id="card_3">
-                    <div class="title">
-                        <span class="strong">Audiovisual production</span>
-                        <p class="value">Good</p>
+                    <div class="card card_3">
+                        <span class="strong">Audiovisual Production</span>
+                        <p>recording and editing of images, photographs, logos, videos and short films</p>
+                        <div>
+                            <p class="value">Photoshop</p>
+                            <p class="value">Premier pro</p>
+                            <p class="value">Ilustrator</p>
+                        </div>
                     </div>
-                    <p class="fill">recording and editing of images, photographs, logos, videos and short films</p>
-                    <ul>
-                        <li>Adobe Photoshop</li>
-                        <li>Adobe Premier pro</li>
-                        <li>Adobe Ilustrator</li>
-                    </ul>
                 </div>
             </div>
         </section>
-        <section class="galery">
-            <div>
+
+        <section>
+            <div class="services">
                 <h2>Galery</h2>
-                <div class="carrusel">
-                    <div class="images">
-                        <img src="./Media/img9.PNG">
-                        <img src="./Media/img10.PNG">
-                        <img src="./Media/video3.gif" alt="">
-                        <img src="./Media/parrilla abierta.PNG">
-                        <img src="./Media/img11.jpeg">
-                        <img src="./Media/img5.PNG">
-                        <img src="./Media/video.gif">
-                        <img src="./Media/img12.jpeg" alt="">
-                        <img src="./Media/img7.PNG">
-                        <img src="./Media/img8.PNG">
-                        <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/tv/CUn_NantWUl/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/tv/CUn_NantWUl/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">Ver esta publicación en Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/tv/CUn_NantWUl/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">Una publicación compartida de Alberto Arias (@alberto_arias_64)</a></p></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="./Media/img13.jpeg" alt="react"></div>
+                        <div class="swiper-slide"><img src="./Media/img14.png" alt="react"></div>
+                        <div class="swiper-slide"><img src="./Media/img15.png" alt="django"></div>
+                        <div class="swiper-slide"><img src="./Media/img16.png" alt="html"></div>
+                        <div class="swiper-slide"><img src="./Media/img17.png" alt="react"></div>
+                        <div class="swiper-slide"><img src="./Media/img10.PNG" alt="password manager"></div>
+                        <div class="swiper-slide"><img src="./Media/video3.gif" alt="3D fixing expample"></div>
+                        <div class="swiper-slide"><img src="./Media/parrilla abierta.PNG" alt="parrilla"></div>
+                        <div class="swiper-slide"><img src="./Media/img11.jpeg" alt="3d model"></div>
+                        <div class="swiper-slide"><img src="./Media/img5.png" alt="arduino"></div>
+                        <div class="swiper-slide"><img src="./Media/video.gif" alt="automatization project"></div>
+                        <div class="swiper-slide"><img src="./Media/img12.jpeg" alt="welding"></div>
+                        <div class="swiper-slide"><img src="./Media/img7.png" alt="welding"></div>
+                        <div class="swiper-slide"><img src="./Media/Img1.png" alt="3D modeling"></div>
+                        <div class="swiper-slide"><img src="./Media/img2.png" alt="3D printing"></div>
+                        <div class="swiper-slide"><img src="./Media/img3.png" alt="3D printing"></div>
+                        <div class="swiper-slide"><img src="./Media/img4.png" alt="robot"></div>
+                        <div class="swiper-slide"><img src="./Media/img6.png" alt="torno"></div>
+                        <div class="swiper-slide"><img src="./Media/img8.png" alt="molde"></div>
                     </div>
-                    <button class="switchleft" onclick="slider_scroll_left()"><</button>
-                    <button class="switchright" onclick="slider_scroll_right()">></button>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
                 </div>
             </div>
         </section>
+
+        <footer>
+            <div>
+                <p>Alberto Arias @X64 • Todos los izquierdos reservados © 2022.</p>
+            </div>
+        </footer>
     </main>
-    <footer>
-        <div>
-            <p>Contact me</p>
-            <ul>
-                <li><a href="https://mail.google.com/mail/u/1/?view=cm&fs=1&to=yugipoi@gmail.com&tf=1"><img src="./Media/svg/google-gmail-svgrepo-com.svg" alt=""></a></li>
-                <li><a href="https://api.whatsapp.com/send?phone=573194577929"><img src="./Media/svg/whatsapp-svgrepo-com.svg" alt=""></a></li>
-                <li><a href="https://www.instagram.com/alberto_arias_64/"><img src="./Media/svg/instagram-svgrepo-com.svg" alt=""></a></li>
-                <li><a href="https://www.facebook.com/profile.php?id=100064699183806"><img src="./Media/svg/facebook-svgrepo-com.svg" alt=""></a>
-                <li><a href="https://drive.google.com/drive/folders/1LX2MLMo4JAYt28iu0_DctlvkK5MXH1h8?usp=sharing"><img src="./Media/svg/drive-svgrepo-com.svg" alt=""></a></li>
-                <li><a href="https://github.com/Simio64"><img src="./Media/svg/github-svgrepo-com.svg" alt=""></a></li>
-            </ul>
-        </div>
-    </footer>
+
     <script src="./main.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        const num = document.getElementsByClassName(swiper)[0]
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 2.6,
+            spaceBetween: 30,
+/*             pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            }, */
+            loop: true,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
 </body>
+
 </html>
