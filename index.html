@@ -17,22 +17,22 @@
 </head>
 
 <body>
-    <main>
+    <main >
         <header>
             <div class="head">
                 <img class="head_img" src="./Media/icon1.png" alt="">
                 <ul class="head_nav">
-                    <li>home</li>
-                    <li>about</li>
-                    <li>projects</li>
-                    <li>services</li>
-                    <li>Galery</li>
+                    <li class="nav" onclick="move_to('intro')" id="intro">Home</li>
+                    <li class="nav" onclick="move_to('about')" id="about">About</li>
+                    <li class="nav" onclick="move_to('projects')" id="projects">Projects</li>
+                    <li class="nav" onclick="move_to('services')" id="services">Services</li>
+                    <li class="nav" onclick="move_to('galery')" id="galery">Galery</li>
                 </ul>
             </div>
         </header>
 
         <section>
-            <div class="intro">
+            <div class="intro" data-id='intro'>
                 <div>
                     <h1 class="nombre">ALBERTO</h1>
                     <h1 class="p_secondary">ARIAS</h1>
@@ -65,7 +65,7 @@
         </section>
 
         <section>
-            <div class="about">
+            <div class="about" data-id='about'>
                 <div class="about_img">
                     <img src="./Media/foto2.png" alt="Alberto Arias">  
                     <button class="alternative_button" onclick="redir('https://drive.google.com/file/d/1894WsCmCQczVxnmx7xEwi3LWheEQq2Lt/view?usp=sharing')">Resumen</button>
@@ -109,7 +109,7 @@
         </section>
             
         <section>
-            <div class="projects">
+            <div class="projects" data-id='projects'>
                 <div class="project ">
                     <p class="strong p_secondary">Portfolio V3</p>
                     <img src="./Media/img13.jpeg" alt="Portfolio">
@@ -162,7 +162,7 @@
         </section>
 
         <section>
-            <div class="services">
+            <div class="services" data-id='services'>
                 <h2>My services</h2>
                 <div class="cards">
                     <div class="card">
@@ -225,7 +225,7 @@
         </section>
 
         <section>
-            <div class="services">
+            <div class="services galery" data-id='galery'>
                 <h2>Galery</h2>
                 <div class="swiper mySwiper">
                     <div class="swiper-wrapper">
