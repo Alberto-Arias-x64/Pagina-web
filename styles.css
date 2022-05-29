@@ -276,7 +276,7 @@ button:hover{
         max-width: 300px;
 
         display: grid;
-        grid-template-rows: max-content min-content max-content max-content;
+        grid-template-rows: max-content 168px 1fr max-content;
         gap: 2rem 1rem;
     }
     .project > img:hover{
@@ -536,7 +536,7 @@ button:hover{
         max-width: 300px;
 
         display: grid;
-        grid-template-rows: max-content min-content max-content max-content;
+        grid-template-rows: max-content 168px 1fr max-content;
         gap: 2rem 1rem;
     }
     .project > img:hover{
@@ -794,7 +794,7 @@ button:hover{
         max-width: 300px;
 
         display: grid;
-        grid-template-rows: max-content min-content max-content max-content;
+        grid-template-rows: max-content 168px 1fr max-content;
         gap: 2rem 1rem;
     }
     .project > img:hover{
